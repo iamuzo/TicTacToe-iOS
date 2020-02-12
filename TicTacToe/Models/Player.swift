@@ -8,7 +8,7 @@
 
 import GameplayKit
 
-class Player: NSObject {
+class Player: NSObject, GKGameModelPlayer {
     
     // MARK: - PROPERTIES
     enum Value: Int {
@@ -31,6 +31,9 @@ class Player: NSObject {
     var value: Value
     var name: String
     
+    // this property allows Player to conform to GKGameModelPlayer
+    var playerId: Int
+    
     static var allPlayers = [Player(.brain), Player(.zombie)]
     
     var opponent: Player {
@@ -45,5 +48,6 @@ class Player: NSObject {
     init(_ value: Value) {
         self.value = value
         self.name = value.name
+        self.playerId = value.rawValue
     }
 }
