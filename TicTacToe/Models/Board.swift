@@ -8,4 +8,8 @@
 
 import GameplayKit
 
-
+class Board: NSObject {
+    
+    // MARK: - Properties
+    var currentPlayer
+}
