@@ -67,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				6DA47C5D23F48043007B5B17 /* Models */,
-				0F42695923F4660600F4FD01 /* HandDrawnShapes.otf */,
 				0F42695623F4557900F4FD01 /* Resources */,
 				0F42694623F4554F00F4FD01 /* ViewController.swift */,
 				0F42694823F4554F00F4FD01 /* Main.storyboard */,
@@ -78,6 +77,7 @@
 		0F42695623F4557900F4FD01 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0F42695923F4660600F4FD01 /* HandDrawnShapes.otf */,
 				0F42694223F4554F00F4FD01 /* AppDelegate.swift */,
 				0F42694423F4554F00F4FD01 /* SceneDelegate.swift */,
 				0F42694B23F4555200F4FD01 /* Assets.xcassets */,
