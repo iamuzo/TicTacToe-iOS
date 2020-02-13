@@ -9,12 +9,10 @@
 /* Begin PBXBuildFile section */
 		0F42694323F4554F00F4FD01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F42694223F4554F00F4FD01 /* AppDelegate.swift */; };
 		0F42694523F4554F00F4FD01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F42694423F4554F00F4FD01 /* SceneDelegate.swift */; };
-		0F42694723F4554F00F4FD01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F42694623F4554F00F4FD01 /* ViewController.swift */; };
 		0F42694A23F4554F00F4FD01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F42694823F4554F00F4FD01 /* Main.storyboard */; };
 		0F42694C23F4555200F4FD01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F42694B23F4555200F4FD01 /* Assets.xcassets */; };
 		0F42694F23F4555200F4FD01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F42694D23F4555200F4FD01 /* LaunchScreen.storyboard */; };
 		0F42695A23F4660600F4FD01 /* HandDrawnShapes.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F42695923F4660600F4FD01 /* HandDrawnShapes.otf */; };
-		0FC60C7723F4BF3C00DFBF35 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC60C7623F4BF3C00DFBF35 /* GameScene.swift */; };
 		6DA47C5F23F4805A007B5B17 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA47C5E23F4805A007B5B17 /* Board.swift */; };
 		6DA47C6123F480C0007B5B17 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA47C6023F480C0007B5B17 /* Move.swift */; };
 		6DA47C6323F480CB007B5B17 /* Strategist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA47C6223F480CB007B5B17 /* Strategist.swift */; };
@@ -27,13 +25,11 @@
 		0F42693F23F4554F00F4FD01 /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F42694223F4554F00F4FD01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F42694423F4554F00F4FD01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0F42694623F4554F00F4FD01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0F42694923F4554F00F4FD01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F42694B23F4555200F4FD01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F42694E23F4555200F4FD01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F42695023F4555200F4FD01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F42695923F4660600F4FD01 /* HandDrawnShapes.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HandDrawnShapes.otf; sourceTree = "<group>"; };
-		0FC60C7623F4BF3C00DFBF35 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		6DA47C5E23F4805A007B5B17 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 		6DA47C6023F480C0007B5B17 /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
 		6DA47C6223F480CB007B5B17 /* Strategist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategist.swift; sourceTree = "<group>"; };
@@ -72,12 +68,9 @@
 		0F42694123F4554F00F4FD01 /* TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
-				0FC60C7123F4BD4400DFBF35 /* Game */,
 				6DA47C6623F4BA35007B5B17 /* Controllers */,
 				6DA47C5D23F48043007B5B17 /* Models */,
 				0F42695623F4557900F4FD01 /* Resources */,
-				0F42694623F4554F00F4FD01 /* ViewController.swift */,
-				0F42694823F4554F00F4FD01 /* Main.storyboard */,
 			);
 			path = TicTacToe;
 			sourceTree = "<group>";
@@ -89,18 +82,11 @@
 				0F42694223F4554F00F4FD01 /* AppDelegate.swift */,
 				0F42694423F4554F00F4FD01 /* SceneDelegate.swift */,
 				0F42694B23F4555200F4FD01 /* Assets.xcassets */,
+				0F42694823F4554F00F4FD01 /* Main.storyboard */,
 				0F42694D23F4555200F4FD01 /* LaunchScreen.storyboard */,
 				0F42695023F4555200F4FD01 /* Info.plist */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		0FC60C7123F4BD4400DFBF35 /* Game */ = {
-			isa = PBXGroup;
-			children = (
-				0FC60C7623F4BF3C00DFBF35 /* GameScene.swift */,
-			);
-			path = Game;
 			sourceTree = "<group>";
 		};
 		6DA47C5D23F48043007B5B17 /* Models */ = {
@@ -196,8 +182,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DA47C6123F480C0007B5B17 /* Move.swift in Sources */,
-				0F42694723F4554F00F4FD01 /* ViewController.swift in Sources */,
-				0FC60C7723F4BF3C00DFBF35 /* GameScene.swift in Sources */,
 				6DA47C6823F4BC76007B5B17 /* GameScene.swift in Sources */,
 				0F42694323F4554F00F4FD01 /* AppDelegate.swift in Sources */,
 				6DA47C6A23F4BE44007B5B17 /* GameViewController.swift in Sources */,
